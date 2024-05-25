@@ -1,3 +1,62 @@
+# Project Management for SERKOM ITTP
+## Panduan Penggunaan Sistem Project Management
+Sistem Project Management ini adalah sebuah aplikasi portofolio pribadi web yang diperuntukkan showcase terhadap project yang sudah diselesaikan dengan menambahkan projectnya pada halaman dashboard admin
+
+## Persyaratan Sistem
+- PHP versi 8.2 atau yang terbaru
+- Database MySQL telah terpasang dan dikonfigurasikan dengan benar pada .env
+- composer
+- Requirement Laravel 11
+
+## Instalation
+1. Clone repository atau dapat download ZIP:
+```
+git clone https://github.com/BintangRP/project-management.git
+```
+2. Instal Dependensi Composer:
+```
+composer install 
+```
+atau
+```
+composer update
+```
+3. Buat .env
+```
+cp .env.example .env
+```
+kemudian mulai konfigurasikan nama database MySQL sesuai pada database masing-masing
+4. Artisan key:generate
+```
+php artisan key:generate
+```
+5. Jalankan Migration
+```
+php artisan migrate
+```
+atau bisa
+```
+php artisan migrate:fresh
+```
+6. Jalankan database seeder
+Untuk memasukkan user secara otomatis pada database
+```
+php artisan db:seed DatabaseSeeder
+```
+Untuk memasukkan kumpulan project pada database
+```
+php artisan db:seed ProjectSeeder
+```
+8. Jalankan server
+```
+php artisan serve
+```
+
+## Gambar Rancangan Project Management
+<img src="https://github.com/BintangRP/project-management/blob/main/public/img/project%20management.png" alt="Rancangan project">
+
+## 
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
