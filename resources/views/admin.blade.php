@@ -20,27 +20,27 @@
 
         <form action="{{ route('project.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
-            <div class="form-group">
+            <div class="form-group my-1">
                 <label for="name">Project Name</label>
                 <input type="text" class="form-control" id="name" name="name" required>
             </div>
-            <div class="form-group">
+            <div class="form-group my-1">
                 <label for="description">Description</label>
                 <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
             </div>
-            <div class="form-group">
+            <div class="form-group my-1">
                 <label for="stack">Tech Stack</label>
                 <input type="text" class="form-control" id="stack" name="stack" required>
             </div>
-            <div class="form-group">
+            <div class="form-group my-1">
                 <label for="link_project">link_project</label>
                 <input type="text" class="form-control" id="link_project" name="link_project" required>
             </div>
-            <div class="form-group">
+            <div class="form-group my-1">
                 <label for="image">Project Image</label>
                 <input type="file" class="form-control" id="image" name="image" required>
             </div>
-            <button type="submit" class="btn btn-primary">Add Project</button>
+            <button type="submit" class="btn btn-primary my-1">Add Project</button>
         </form>
 
         <h2 class="mt-5">All Projects</h2>

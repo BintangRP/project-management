@@ -5,7 +5,7 @@
             <svg class="bi me-2" width="40" height="32">
                 <use xlink:href="#bootstrap"></use>
             </svg>
-            <span class="fs-4">My Project</span>
+            <span class="fs-4"><img src="{{ asset('img/logo.png') }}" alt="" height="70"></span>
         </a>
 
         <ul class="nav nav-pills">

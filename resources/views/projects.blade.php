@@ -5,7 +5,7 @@
 @section('content')
     <link rel="stylesheet" href="{{ asset('styles/gallery.css') }}">
     <div class="container-lg">
-        <h2 class="mt-5">All Projects</h2>
+        <h2 class="my-5 text-center">All Projects</h2>
         <div class="gallery">
             @foreach ($projects as $project)
                 <div class="gallery-item">

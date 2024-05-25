@@ -21,17 +21,17 @@
         <form action="{{ route('auth') }}" method="POST">
             @csrf
             @method('POST')
-            <div class="form-group">
+            <div class="form-group my-1">
                 <label for="email">Email</label>
                 <input type="text" class="form-control @error('message') is-invalid @enderror" id="email"
                     name="email" required>
             </div>
-            <div class="form-group">
+            <div class="form-group my-1">
                 <label for="password">Password</label>
                 <input class="form-control @error('message') is-invalid @enderror" type="password" name="password"
                     id="password">
             </div>
-            <button type="submit" class="btn btn-primary">Login</button>
+            <button type="submit" class="btn btn-primary my-1">Login</button>
         </form>
     </div>
 @endsection
