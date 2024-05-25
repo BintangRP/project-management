@@ -17,7 +17,7 @@ return new class extends Migration
             $table->text('description');
             $table->string('image');
             $table->string('stack');
-            $table->string('link-project');
+            $table->string('link_project');
             $table->timestamps();
         });
     }
