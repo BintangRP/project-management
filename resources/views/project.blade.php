@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', 'Landing Page')
+@section('title', 'Project Detail')
 
 @section('content')
     <div class="container-lg">

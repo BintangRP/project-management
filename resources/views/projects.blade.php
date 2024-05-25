@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', 'Landing Page')
+@section('title', 'Kumpulan Project')
 
 @section('content')
     <link rel="stylesheet" href="{{ asset('styles/gallery.css') }}">

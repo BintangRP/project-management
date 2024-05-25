@@ -1,5 +1,7 @@
 @extends('layouts.index')
 
+@section('title', 'login')
+
 @section('content')
     <div class="container">
         <h1>Login Admin</h1>

@@ -1,5 +1,7 @@
 @extends('layouts.index')
 
+@section('title', 'dashboard')
+
 @section('content')
     <div class="container">
         <h1>Project Management</h1>
